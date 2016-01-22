@@ -125,11 +125,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Team VIs" Type="Folder">
-			<Item Name="Joystick Simulator.vi" Type="VI" URL="../../2016-Beta-Autonomous-Scripting/Joystick Simulator.vi"/>
 			<Item Name="Joystick_Deadband.vi" Type="VI" URL="../Team VIs/Joystick_Deadband.vi"/>
 		</Item>
 		<Item Name="Joystick Simulator.vi" Type="VI" URL="../../2016-Beta-Autonomous-Scripting/Team VIs/Joystick Simulator.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Rotate To.vi" Type="VI" URL="../Team VIs/Rotate To.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
