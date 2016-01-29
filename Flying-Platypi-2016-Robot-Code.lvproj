@@ -136,6 +136,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Team VIs" Type="Folder">
 			<Item Name="GetDriveValuesFromAngle.vi" Type="VI" URL="../Team VIs/GetDriveValuesFromAngle.vi"/>
 			<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../Team VIs/IMUtoNormalGyro.vi"/>
+			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VIs/Joystick Sensitivity.vi"/>
 			<Item Name="Joystick Simulator.vi" Type="VI" URL="../Team VIs/Joystick Simulator.vi"/>
 			<Item Name="Joystick_Deadband.vi" Type="VI" URL="../Team VIs/Joystick_Deadband.vi"/>
 			<Item Name="Rotate To.vi" Type="VI" URL="../Team VIs/Rotate To.vi"/>
