@@ -150,6 +150,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Team VIs" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
+			<Item Name="DriveTalons.vi" Type="VI" URL="../Team VIs/DriveTalons.vi"/>
 			<Item Name="GetDriveValuesFromAngle.vi" Type="VI" URL="../Team VIs/GetDriveValuesFromAngle.vi"/>
 			<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../Team VIs/IMUtoNormalGyro.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VIs/Joystick Sensitivity.vi"/>
