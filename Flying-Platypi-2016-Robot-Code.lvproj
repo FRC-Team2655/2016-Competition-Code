@@ -774,7 +774,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../../Flying-Platypi-2016-Robot-Code - Tippy/Team VIs/Power_Scale_Line.vi"/>
 			<Item Name="SimpleGyro.lvlib" Type="Library" URL="../../2016-Beta-Autonomous-Scripting/SimpleGyro/SimpleGyro.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
