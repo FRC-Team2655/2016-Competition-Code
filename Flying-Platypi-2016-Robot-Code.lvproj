@@ -146,6 +146,7 @@ AddOutputFilter chunkFilter
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Boolean Latch.vi" Type="VI" URL="../Team VIs/Boolean Latch.vi"/>
 			<Item Name="DriveTalons.vi" Type="VI" URL="../Team VIs/DriveTalons.vi"/>
+			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VIs/Flip Flop.vi"/>
 			<Item Name="GetDriveValuesFromAngle.vi" Type="VI" URL="../Team VIs/GetDriveValuesFromAngle.vi"/>
 			<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../Team VIs/IMUtoNormalGyro.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VIs/Joystick Sensitivity.vi"/>
