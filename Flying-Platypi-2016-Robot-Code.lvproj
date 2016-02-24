@@ -145,6 +145,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Team VIs" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Boolean Latch.vi" Type="VI" URL="../Team VIs/Boolean Latch.vi"/>
+			<Item Name="Delay.vi" Type="VI" URL="../Team VIs/Delay.vi"/>
 			<Item Name="Drive Talons Coast.vi" Type="VI" URL="../Team VIs/Drive Talons Coast.vi"/>
 			<Item Name="DriveTalons.vi" Type="VI" URL="../Team VIs/DriveTalons.vi"/>
 			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VIs/Flip Flop.vi"/>
@@ -155,8 +156,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Joystick_Deadband.vi" Type="VI" URL="../Team VIs/Joystick_Deadband.vi"/>
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VIs/Power_Scale_Line.vi"/>
 			<Item Name="Rotate To.vi" Type="VI" URL="../Team VIs/Rotate To.vi"/>
+			<Item Name="Solenoid Control.vi" Type="VI" URL="../Team VIs/Solenoid Control.vi"/>
 		</Item>
-		<Item Name="Delay.vi" Type="VI" URL="../Team VIs/Delay.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -695,6 +696,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SolenoidClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidClose.vi"/>
 				<Item Name="WPI_SolenoidDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl"/>
 				<Item Name="WPI_SolenoidDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDoesDevRefExist.vi"/>
+				<Item Name="WPI_SolenoidGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGet.vi"/>
+				<Item Name="WPI_SolenoidGetBool.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/Deprecated/WPI_SolenoidGetBool.vi"/>
+				<Item Name="WPI_SolenoidGetEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGetEnum.vi"/>
 				<Item Name="WPI_SolenoidOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpen.vi"/>
 				<Item Name="WPI_SolenoidOpenDouble.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenDouble.vi"/>
 				<Item Name="WPI_SolenoidOpenSingle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenSingle.vi"/>
@@ -768,7 +772,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
