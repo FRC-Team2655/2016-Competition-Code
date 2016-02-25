@@ -149,13 +149,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Drive Talons Coast.vi" Type="VI" URL="../Team VIs/Drive Talons Coast.vi"/>
 			<Item Name="DriveTalons.vi" Type="VI" URL="../Team VIs/DriveTalons.vi"/>
 			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VIs/Flip Flop.vi"/>
-			<Item Name="GetDriveValuesFromAngle.vi" Type="VI" URL="../Team VIs/GetDriveValuesFromAngle.vi"/>
-			<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../Team VIs/IMUtoNormalGyro.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VIs/Joystick Sensitivity.vi"/>
-			<Item Name="Joystick Simulator.vi" Type="VI" URL="../Team VIs/Joystick Simulator.vi"/>
-			<Item Name="Joystick_Deadband.vi" Type="VI" URL="../Team VIs/Joystick_Deadband.vi"/>
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VIs/Power_Scale_Line.vi"/>
-			<Item Name="Rotate To.vi" Type="VI" URL="../Team VIs/Rotate To.vi"/>
 			<Item Name="Solenoid Control.vi" Type="VI" URL="../Team VIs/Solenoid Control.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
