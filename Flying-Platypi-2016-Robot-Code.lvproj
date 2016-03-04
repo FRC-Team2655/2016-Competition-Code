@@ -146,8 +146,9 @@ AddOutputFilter chunkFilter
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="Boolean Latch.vi" Type="VI" URL="../Team VIs/Boolean Latch.vi"/>
 			<Item Name="Delay.vi" Type="VI" URL="../Team VIs/Delay.vi"/>
-			<Item Name="Drive Talons Coast.vi" Type="VI" URL="../Team VIs/Drive Talons Coast.vi"/>
-			<Item Name="DriveTalons.vi" Type="VI" URL="../Team VIs/DriveTalons.vi"/>
+			<Item Name="DriveSpeedBrake.vi" Type="VI" URL="../Team VIs/DriveSpeedBrake.vi"/>
+			<Item Name="DriveSpeedCoast.vi" Type="VI" URL="../Team VIs/DriveSpeedCoast.vi"/>
+			<Item Name="DriveVoltageCoast.vi" Type="VI" URL="../Team VIs/DriveVoltageCoast.vi"/>
 			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VIs/Flip Flop.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VIs/Joystick Sensitivity.vi"/>
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VIs/Power_Scale_Line.vi"/>
@@ -768,7 +769,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -779,7 +780,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{32AA5E81-8D39-412E-AE5A-FFD5F7D5199A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{186D5956-E8D0-4472-B9EB-FAFD8260B250}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
