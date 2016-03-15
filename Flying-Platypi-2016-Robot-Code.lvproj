@@ -750,6 +750,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SimpleGyro.lvlib" Type="Library" URL="../../Flying-Platypi-2015-Robot-Code/LabView/SimpleGyro/SimpleGyro.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
