@@ -13,4 +13,4 @@ This repository contains all of the robot code for our 2016 competition robot. S
   - A "Drive Straight" function was implemented to aid in crossing defenses during teleop
   - Both the IMU and Gyro/Accel board are supported in the code and can be swapped by a single boolean in Robot Main.vi
 
-Feel free to clone/fork the project and take a look around! Every effort has been made to keep the code as modular as possible. If you have any questions, open a request! IMU code was integrated from [this](https://github.com/juchong/ADIS16448-RoboRIO-Driver) repository.
+Feel free to clone/fork the project and take a look around! Every effort has been made to keep the code as modular as possible. If you have any questions, open a request! IMU code was integrated from the official [ADIS16448 RoboRIO Driver](https://github.com/juchong/ADIS16448-RoboRIO-Driver) repository.
