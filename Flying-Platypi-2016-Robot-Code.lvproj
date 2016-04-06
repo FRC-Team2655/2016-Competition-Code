@@ -132,84 +132,7 @@ AddOutputFilter chunkFilter
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
 				<Item Name="FRC ADIS16460.lvlib" Type="Library" URL="../ADIS16460/ADI MXP IMU/FRC ADIS16460.lvlib"/>
 			</Item>
-			<Item Name="Example Project" Type="Folder">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Item Name="2016 Robot Project IMU Example" Type="Folder">
-					<Property Name="GIT_FILE" Type="Bool">false</Property>
-					<Item Name="ADI MXP IMU" Type="Folder">
-						<Property Name="GIT_FILE" Type="Bool">false</Property>
-						<Item Name="ADI MXP IMU" Type="Folder">
-							<Property Name="GIT_FILE" Type="Bool">false</Property>
-							<Item Name="FRC ADI MXP IMU.lvlib" Type="Library" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/ADI MXP IMU/ADI MXP IMU/FRC ADI MXP IMU.lvlib"/>
-						</Item>
-						<Item Name="FRC ADI MXP IMU Example.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/ADI MXP IMU/FRC ADI MXP IMU Example.vi"/>
-						<Item Name="FRC ADI MXP IMU.aliases" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/ADI MXP IMU/FRC ADI MXP IMU.aliases">
-							<Property Name="GIT_FILE" Type="Bool">false</Property>
-						</Item>
-						<Item Name="FRC ADI MXP IMU.lvlps" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/ADI MXP IMU/FRC ADI MXP IMU.lvlps">
-							<Property Name="GIT_FILE" Type="Bool">false</Property>
-						</Item>
-						<Item Name="FRC ADI MXP IMU.lvproj" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/ADI MXP IMU/FRC ADI MXP IMU.lvproj"/>
-					</Item>
-					<Item Name="FRC SimulatedRSC" Type="Folder">
-						<Property Name="GIT_FILE" Type="Bool">false</Property>
-						<Item Name="ive" Type="Folder">
-							<Property Name="GIT_FILE" Type="Bool">false</Property>
-							<Item Name="AXIS M1011.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/AXIS M1011.ive"/>
-							<Item Name="Devantech SRF05.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/Devantech SRF05.ive"/>
-							<Item Name="FRC - Body.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/FRC - Body.ive"/>
-							<Item Name="FRC2015.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/FRC2015.ive"/>
-							<Item Name="Honeywell HMC6343.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/Honeywell HMC6343.ive"/>
-							<Item Name="mecanum wheel frame.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel frame.ive"/>
-							<Item Name="mecanum wheel frame0.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel frame0.ive"/>
-							<Item Name="mecanum wheel frame01.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel frame01.ive"/>
-							<Item Name="mecanum wheel frame012.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel frame012.ive"/>
-							<Item Name="mecanum wheel roller.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel roller.ive"/>
-							<Item Name="mecanum wheel roller0.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel roller0.ive"/>
-							<Item Name="mecanum wheel roller01.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel roller01.ive"/>
-							<Item Name="mecanum wheel roller012.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/mecanum wheel roller012.ive"/>
-							<Item Name="Sparkfun Atomic IMU.ive" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/ive/Sparkfun Atomic IMU.ive"/>
-						</Item>
-						<Item Name="stl" Type="Folder">
-							<Property Name="GIT_FILE" Type="Bool">false</Property>
-							<Item Name="FRC2015.stl" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC SimulatedRSC/stl/FRC2015.stl"/>
-						</Item>
-					</Item>
-					<Item Name="2016 roboRIO Project.aliases" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/2016 roboRIO Project.aliases">
-						<Property Name="GIT_FILE" Type="Bool">false</Property>
-					</Item>
-					<Item Name="2016 Robot Project.aliases" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/2016 Robot Project.aliases">
-						<Property Name="GIT_FILE" Type="Bool">false</Property>
-					</Item>
-					<Item Name="2016 Robot Project.lvlps" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/2016 Robot Project.lvlps">
-						<Property Name="GIT_FILE" Type="Bool">false</Property>
-					</Item>
-					<Item Name="2016 Robot Project.lvproj" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/2016 Robot Project.lvproj"/>
-					<Item Name="Autonomous Independent.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Autonomous Independent.vi"/>
-					<Item Name="Begin.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Begin.vi"/>
-					<Item Name="Disabled.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Disabled.vi"/>
-					<Item Name="Elapsed Times.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Elapsed Times.vi"/>
-					<Item Name="Finish.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Finish.vi"/>
-					<Item Name="FRC Simulated.xml" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/FRC Simulated.xml"/>
-					<Item Name="Periodic Tasks.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Periodic Tasks.vi"/>
-					<Item Name="Robot Global Data.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Robot Global Data.vi"/>
-					<Item Name="Robot Main.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Robot Main.vi"/>
-					<Item Name="Robot Simulation Readme.html" Type="Document" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Robot Simulation Readme.html"/>
-					<Item Name="Teleop.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Teleop.vi"/>
-					<Item Name="Test.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Test.vi"/>
-					<Item Name="Vision Processing.vi" Type="VI" URL="../ADIS16460/Example Project/2016 Robot Project IMU Example/Vision Processing.vi"/>
-				</Item>
-			</Item>
-			<Item Name="FRC ADI MXP IMU.lvlps" Type="Document" URL="../ADIS16460/FRC ADI MXP IMU.lvlps">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
 			<Item Name="FRC ADIS16460 Example.vi" Type="VI" URL="../ADIS16460/FRC ADIS16460 Example.vi"/>
-			<Item Name="FRC ADIS16460.aliases" Type="Document" URL="../ADIS16460/FRC ADIS16460.aliases">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="FRC ADIS16460.lvlps" Type="Document" URL="../ADIS16460/FRC ADIS16460.lvlps">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
 			<Item Name="FRC ADIS16460.lvproj" Type="Document" URL="../ADIS16460/FRC ADIS16460.lvproj"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
@@ -637,7 +560,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANJaguar_Status.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_Status.ctl"/>
 				<Item Name="WPI_CANJaguar_StatusChannelSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_StatusChannelSelect.ctl"/>
 				<Item Name="WPI_CANJaguar_StatusSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_StatusSelect.ctl"/>
-				<Item Name="WPI_CANJaguar_UpdateSyncGroup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/WPI_CANJaguar_UpdateSyncGroup.vi"/>
 				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
@@ -792,8 +714,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
-				<Item Name="WPI_JoystickMecanumCartesianMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumCartesianMapping.vi"/>
-				<Item Name="WPI_JoystickMecanumPolarMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumPolarMapping.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
@@ -857,41 +777,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_PWMSetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSetValue.vi"/>
 				<Item Name="WPI_PWMToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMToDigitalModule.vi"/>
 				<Item Name="WPI_ReserveFilterResource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_ReserveFilterResource.vi"/>
-				<Item Name="WPI_RobotDriveClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveClose.vi"/>
-				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
-				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
-				<Item Name="WPI_RobotDriveDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDoesDevRefExist.vi"/>
-				<Item Name="WPI_RobotDriveERRHolonomic.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveERRHolonomic.vi"/>
-				<Item Name="WPI_RobotDriveGetMotorControlReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetMotorControlReference.vi"/>
-				<Item Name="WPI_RobotDriveHolonomicDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveHolonomicDrive.vi"/>
-				<Item Name="WPI_RobotDriveMecanumDrive_Cartesian.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMecanumDrive_Cartesian.vi"/>
-				<Item Name="WPI_RobotDriveMecanumDrive_Polar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMecanumDrive_Polar.vi"/>
-				<Item Name="WPI_RobotDriveMecanumMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMecanumMotors.vi"/>
-				<Item Name="WPI_RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotorSelectorEnum.ctl"/>
-				<Item Name="WPI_RobotDriveNormalize 4.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveNormalize 4.vi"/>
-				<Item Name="WPI_RobotDriveOpen4Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4Motor.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithCANJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithCANJaguar.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithCANTalonSRX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithCANTalonSRX.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithExistingMotors.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithJaguar.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithSD540.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithSD540.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithSPARK.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithSPARK.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithTalon.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithTalonSRX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithTalonSRX.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictor.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithVictorSP.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictorSP.vi"/>
-				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
-				<Item Name="WPI_RobotDriveRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Read Name.vi"/>
-				<Item Name="WPI_RobotDriveRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Set.vi"/>
-				<Item Name="WPI_RobotDriveRegisterEachMotor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRegisterEachMotor.vi"/>
-				<Item Name="WPI_RobotDriveRotateVector.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRotateVector.vi"/>
-				<Item Name="WPI_RobotDriveSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyCheck.vi"/>
-				<Item Name="WPI_RobotDriveSafetyConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyConfig.vi"/>
-				<Item Name="WPI_RobotDriveSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyError.vi"/>
-				<Item Name="WPI_RobotDriveSafetyTest.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyTest.vi"/>
-				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
 				<Item Name="WPI_SafetyOutputCheckMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputCheckMenu.ctl"/>
-				<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
 				<Item Name="WPI_SetFilterFrequency.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_SetFilterFrequency.vi"/>
