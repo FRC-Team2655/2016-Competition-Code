@@ -153,6 +153,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Team VIs" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
+			<Item Name="Auto Watchdog.vi" Type="VI" URL="../Team VIs/Auto Watchdog.vi"/>
 			<Item Name="Boolean Latch.vi" Type="VI" URL="../Team VIs/Boolean Latch.vi"/>
 			<Item Name="Delay.vi" Type="VI" URL="../Team VIs/Delay.vi"/>
 			<Item Name="DriveSpeedBrake.vi" Type="VI" URL="../Team VIs/DriveSpeedBrake.vi"/>
