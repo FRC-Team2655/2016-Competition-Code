@@ -14,8 +14,8 @@
 		</Item>
 		<Item Name="ADIS16460_Close.vi" Type="VI" URL="../ADIS16460_Close.vi"/>
 		<Item Name="ADIS16460_ComplementaryFilter.vi" Type="VI" URL="../ADIS16460_ComplementaryFilter.vi"/>
-		<Item Name="ADIS16460_Get AHRS.vi" Type="VI" URL="../ADIS16460_Get AHRS.vi"/>
 		<Item Name="ADIS16460_Get Angles.vi" Type="VI" URL="../ADIS16460_Get Angles.vi"/>
+		<Item Name="ADIS16460_Get Complementary.vi" Type="VI" URL="../ADIS16460_Get Complementary.vi"/>
 		<Item Name="ADIS16460_Get Instant.vi" Type="VI" URL="../ADIS16460_Get Instant.vi"/>
 		<Item Name="ADIS16460_Loop.vi" Type="VI" URL="../ADIS16460_Loop.vi"/>
 		<Item Name="ADIS16460_Open.vi" Type="VI" URL="../ADIS16460_Open.vi"/>
@@ -31,7 +31,9 @@
 		<Item Name="WPI_IMU_ADIS16460_ReadRegister.vi" Type="VI" URL="../WPI_IMU_ADIS16460_ReadRegister.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_ReadSensorData.vi" Type="VI" URL="../WPI_IMU_ADIS16460_ReadSensorData.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_Registers.ctl" Type="VI" URL="../WPI_IMU_ADIS16460_Registers.ctl"/>
+		<Item Name="WPI_IMU_ADIS16460_ResetDelay.vi" Type="VI" URL="../WPI_IMU_ADIS16460_ResetDelay.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_SPIDelay.vi" Type="VI" URL="../WPI_IMU_ADIS16460_SPIDelay.vi"/>
+		<Item Name="WPI_IMU_ADIS16460_WriteCommand.vi" Type="VI" URL="../WPI_IMU_ADIS16460_WriteCommand.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_WriteRegister.vi" Type="VI" URL="../WPI_IMU_ADIS16460_WriteRegister.vi"/>
 	</Item>
 </Library>
