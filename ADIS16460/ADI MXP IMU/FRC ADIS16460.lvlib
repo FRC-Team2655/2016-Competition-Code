@@ -28,6 +28,7 @@
 		<Item Name="WPI_ADI_IMU_ADIS16460_GetSetRefNum.vi" Type="VI" URL="../WPI_ADI_IMU_ADIS16460_GetSetRefNum.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_Data-Address to SPI.vi" Type="VI" URL="../WPI_IMU_ADIS16460_Data-Address to SPI.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_FGV.vi" Type="VI" URL="../WPI_IMU_ADIS16460_FGV.vi"/>
+		<Item Name="WPI_IMU_ADIS16460_HardwareResetDelay.vi" Type="VI" URL="../WPI_IMU_ADIS16460_HardwareResetDelay.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_ReadRegister.vi" Type="VI" URL="../WPI_IMU_ADIS16460_ReadRegister.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_ReadSensorData.vi" Type="VI" URL="../WPI_IMU_ADIS16460_ReadSensorData.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_Registers.ctl" Type="VI" URL="../WPI_IMU_ADIS16460_Registers.ctl"/>
@@ -35,5 +36,6 @@
 		<Item Name="WPI_IMU_ADIS16460_SPIDelay.vi" Type="VI" URL="../WPI_IMU_ADIS16460_SPIDelay.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_WriteCommand.vi" Type="VI" URL="../WPI_IMU_ADIS16460_WriteCommand.vi"/>
 		<Item Name="WPI_IMU_ADIS16460_WriteRegister.vi" Type="VI" URL="../WPI_IMU_ADIS16460_WriteRegister.vi"/>
+		<Item Name="WPI_IMU_ADIS16460_WriteRegisterNoRead.vi" Type="VI" URL="../WPI_IMU_ADIS16460_WriteRegisterNoRead.vi"/>
 	</Item>
 </Library>
