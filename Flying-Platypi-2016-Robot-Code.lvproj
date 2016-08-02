@@ -121,9 +121,10 @@ AddOutputFilter chunkFilter
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="ADI MXP IMU" Type="Folder">
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Item Name="FRC ADI MXP IMU.lvlib" Type="Library" URL="../ADIS16448/ADI MXP IMU/FRC ADI MXP IMU.lvlib"/>
+				<Item Name="FRC_ADIS16448_IMU.lvlib" Type="Library" URL="../ADIS16448/ADI MXP IMU/FRC_ADIS16448_IMU.lvlib"/>
 			</Item>
-			<Item Name="FRC ADI MXP IMU Example.vi" Type="VI" URL="../ADIS16448/FRC ADI MXP IMU Example.vi"/>
+			<Item Name="ADIS16448 IMU Calibration.vi" Type="VI" URL="../ADIS16448/ADIS16448 IMU Calibration.vi"/>
+			<Item Name="ADIS16448 IMU Example.vi" Type="VI" URL="../ADIS16448/ADIS16448 IMU Example.vi"/>
 			<Item Name="FRC ADI MXP IMU.lvproj" Type="Document" URL="../ADIS16448/FRC ADI MXP IMU.lvproj"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
@@ -149,6 +150,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Delay.vi" Type="VI" URL="../Team VIs/Delay.vi"/>
 			<Item Name="DriveSpeedBrake.vi" Type="VI" URL="../Team VIs/DriveSpeedBrake.vi"/>
 			<Item Name="DriveSpeedCoast.vi" Type="VI" URL="../Team VIs/DriveSpeedCoast.vi"/>
+			<Item Name="DriveSpeedCoastRamp.vi" Type="VI" URL="../Team VIs/DriveSpeedCoastRamp.vi"/>
 			<Item Name="DriveVoltageCoast.vi" Type="VI" URL="../Team VIs/DriveVoltageCoast.vi"/>
 			<Item Name="Flip Flop.vi" Type="VI" URL="../Team VIs/Flip Flop.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Team VIs/Joystick Sensitivity.vi"/>
@@ -314,6 +316,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
@@ -792,7 +795,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -802,7 +805,8 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D17C9BE4-46D9-4812-BDD5-2FC2BC1CE3FD}</Property>
+				<Property Name="GIT_FILE" Type="Bool">false</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FAA91F51-AEA9-4B5E-9634-E3D84EAE96E5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
