@@ -158,6 +158,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VIs/Power_Scale_Line.vi"/>
 			<Item Name="Solenoid Control.vi" Type="VI" URL="../Team VIs/Solenoid Control.vi"/>
 		</Item>
+		<Item Name="GetIMUAverage.vi" Type="VI" URL="../Team VIs/GetIMUAverage.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
